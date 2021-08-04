@@ -8887,7 +8887,7 @@ end
 end
 end
 if text == "انمي" then
-data,res = https.request('https://shahum.ml/audioss/photo.php')
+data,res = https.request('https://uussuu.ml/audioss/photo.php')
 if res == 200 then
 photo = json:decode(data)
 if photo.Info == true then
@@ -8902,7 +8902,7 @@ end
 end
 end
 if text == "غنيلي" then
-data,res = https.request('https://shahum.ml/audioss/audios.php')
+data,res = https.request('https://uussuu.ml/audioss/audios.php')
 if res == 200 then
 audios = json:decode(data)
 if audios.Info == true then
@@ -8917,7 +8917,7 @@ end
 end
 end
 if text == "شعر" then
-data,res = https.request('https://shahum.ml/audioss/shaer.php')
+data,res = https.request('https://uussuu.ml/audioss/shaer.php')
 if res == 200 then
 audios = json:decode(data)
 if audios.Info == true then
@@ -8932,7 +8932,7 @@ end
 end
 end
 if text == "ريمكس" then
-data,res = https.request('https://shahum.ml/audioss/remax.php')
+data,res = https.request('https://uussuu.ml/audioss/remax.php')
 if res == 200 then
 audios = json:decode(data)
 if audios.Info == true then
